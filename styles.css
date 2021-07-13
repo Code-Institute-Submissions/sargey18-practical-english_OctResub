@@ -38,6 +38,16 @@ header{
     padding: 30px 10%;
 }
 
+/*cover image*/
+
+.cover-image{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url(images/man-2562325_1920.jpg));
+    background-position: center;
+    background-size: cover;
+}
+
 .nav_links li  {
     list-style: none;
     display: inline-block;

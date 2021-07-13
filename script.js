@@ -8,7 +8,7 @@ const nav5 = document.getElementById('nav5');
 
 
 
-
+//function for toggling navigation
 function toggleNav() {
   //toggle:menu bars open/closed
   menuBars.classList.toggle('change');
@@ -16,6 +16,7 @@ function toggleNav() {
   overlay.classList.toggle('overlay-active');
   if (overlay.classList.contains('overlay-active')) {
     //animate in - overlay
+    overlay.classList.remove('overlay-slide-left');
     overlay.classList.add('overlay-slide-right');
   } else {
     // animate Out - Overlay
