@@ -14,48 +14,55 @@
 
 /*------------------------------nav bar style start*/
 
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+}
 
+.navigation-top {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
 
-.logo, li, a, button {
-    font-family: 'Asul', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
+.nav_links {
+    display: flex;
+    flex-direction: row;
 }
 
 .logo {
-    cursor: pointer;
+    flex: 1 1 auto;
+    color:#0088a9;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     font-weight: bold;
-    color: #0088a9;
-    font-size: 18px;
+    font-size: 25px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
-
-/*cover image*/
-
-.cover-image{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url(images/man-2562325_1920.jpg));
-    background-position: center;
-    background-size: cover;
-}
-
-.nav_links li  {
+.navigation-top .nav_links li{
     list-style: none;
-    display: inline-block;
-    padding: 0 10px;
+    margin-top: 18px;
+    margin-right: 5px;
 }
 
-.nav_links li a {
-    transition: all 0.3s ease 0s;
+.navigation-top .nav_links li a {
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation-top .nav_links li a:hover {
+    color: #29b0d1;
 }
 
 
@@ -64,7 +71,8 @@ header{
 }
 
 .Courses-Button button {
-    padding: 9px 25px;
+    font-size: 18px;
+    padding: 15px 25px;
     background-color: chocolate;
     border: none;
     border-radius: 50px;
@@ -73,6 +81,12 @@ header{
     color: white;
 }
 
+.Courses-Button button:hover {
+    background-color: rgb(233, 158, 105);
+ 
+}
+
+
 .overlay {
     display: none;
 }
@@ -80,23 +94,731 @@ header{
 
 /*-------------------------------------navbar style end*/
 
+/* elements with the same propoties start-------------*/
+
+.outer-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .popular-articles h2, .section-title{
+    color: chocolate;
+    font-size: 40px;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.cheap-course-outer,  .how-we-are-different-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cheap-course-title {
+    color:#0088a9 ;
+    font-size: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.cheap-course-title h3 .fas{
+    color: chocolate;
+    margin: 0 20px 0 20px;
+}
+
+
+
+.cheap-course-inner,  .how-we-are-different-inner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.cheap-course-inner .cheap-course-text-all, .how-we-are-different-inner .how-we-are-different-text-all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+.cheap-course-student, .how-we-are-different-pros{
+    width: 300px;
+    min-width: 200px;
+    flex-grow: 1;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
+}
+
+.cheap-course-student .fas, .how-we-are-different-pros .fas{
+    font-size: 40px;
+    color: chocolate;
+}
+
+.cheap-course-student h3{
+    font-size: 30px;
+    color: #0088a9;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* elements with the same propoties end-------------*/
+
+
+
+/* student problems start-------------------------------------------*/
+
+.image-cover{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/people-2557396_1920.jpg");
+
+  /* Set a specific height */
+  height: 80vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  padding-top: 150px;
+}
+
+.image-col {
+    text-align: left;
+    padding-left: 50px;
+    width: 50vw;
+}
+
+.home-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.home-text{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.organge{
+    color: chocolate;
+}
+
+.blue{
+    color:#0088a9 ;
+}
+
+.home-button button {
+    padding:  20px 40px 40px;
+    margin-top: 50px;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: chocolate;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.home-button button:hover {
+    background-color: rgb(233, 158, 105);
+}
+
+.home-video {
+    width: 50vw;
+}
+
+.home-video-style{
+    position: relative;
+    overflow: hidden;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.home-button-responsive{
+    display: none;
+}
+
+
+/* student problems end  ------------------------------------*/
+
+
+/*how we are different start -----------------------------*/
+
+.how-we-are-different-outer{
+    background-color: #0088a9;
+    color: #fff;
+}
+
+ .how-we-are-different-title h3{
+    color: #fff;
+    margin-top: 30px;
+}
+
+.how-we-are-different-pros {
+    width: 500px;
+}
+
+.how-we-are-different-text-all .how-we-are-different-pros i {
+    margin-left: 100px;
+    color: #fff;
+}
+
+.how-we-are-different-text-all .how-we-are-different-text-all h3{
+    color:#fff ;
+    font-size: 35px;
+}
+
+.how-we-are-different-text-all .how-we-are-different-text-all ul{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+
+
+/*how we are different end-----------------------------*/
+
+/*articles start-------------------------------------*/
+
+
+
+
+
+.inner-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position:relative ;
+}
+
+.container {
+    width: 400px;
+    min-width: 300px;
+    flex-grow: 1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.content-container {
+    padding: 10px 20px;
+}
+
+.content-container h1 {
+    font-size: 24px;
+}
+
+.content-container .listening, .content-container .vocabulary, .content-container .speaking {
+    background: crimson;
+    width: 80px;
+    font-size: 8px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.content-container .vocabulary {
+    background: limegreen;
+}
+
+.content-container .speaking {
+    background: chocolate;
+}
+
+.content-container p{
+    color: grey;
+    font-weight: 700px;
+    font-size: 12px;
+    letter-spacing: 0.02rem;
+    line-height: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background: #0088a9;
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background: #29b0d1 ;
+}
+
+/*articles end----------------------------------------*/
+
+/* cheap courses start--------------------------------*/
+
+
+
+.cheap-course-title h2{
+    color: #0088a9;
+    font-size: 60px;
+    margin: 20px 20px 20px 55px;
+    padding: 20px;
+}
+
+.cheap-course-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    max-width: 800px;
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cheap-course-student h3{
+    font-size: 30px;
+    color: #0088a9;
+}
+
+.cheap-course-student p{
+    font-size: 18px;
+}
+
+.go-to-course{
+    text-align: center;
+}
+
+
+
+/*cheap courses end----------------------------------*/
+
+/*reviews start-----------------------------------------*/
+
+.rev-outer{
+display: flex;
+margin-top: 40px;
+}
+
+.rev-section {
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: .5rem;
+    color: #0088a9;
+}
+
+.note {
+    font-size: 20px;
+}
+
+.reviews {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.review{
+    margin: 0 1rem;
+    min-width: 300px;
+    flex: 1;
+}
+
+.head-review {
+    margin: 1.75rem auto;
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+
+.body-review {
+    background-color: rgb(238, 238, 238);
+    padding: 2.5rem;
+    box-shadow: 2px 2px 10x 3px rgb(225, 225, 225);
+}
+
+.name-review {
+    font-size: 1.5rem;
+    color: rgb(50, 50, 50);
+    margin-bottom: .25rem;
+}
+
+.place-review {
+    color: red;
+    font-style: italic;
+}
+
+.rating{
+    color: rgb(253, 180, 42);
+    margin: 1rem 0;
+}
+
+.desc-review {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+}
+
+/*reviews end-----------------------------------------*/
+
+/*other courses start--------------------------------------*/
+
+
+
+.btn-courses{
+    background-color: chocolate;
+}
+
+/*other courses end-----------------------------------------*/
+
+/*sign up form----------------------------------------------*/
+
+.form-outer{
+    background-color: #0088a9;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.signup-form{
+    background: chocolate;
+    padding: 25px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.signup-form .title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.form-wrap {
+    margin-top: 35px;
+}
+
+.form-wrap .input-wrap {
+    margin-bottom: 15px;
+}
+
+.form-wrap .input-wrap:last-child {
+    margin-bottom: 0;
+}
+
+.form-wrap .input-wrap label{
+    display: block;
+    margin-bottom: 3px;
+    color:#fff ;
+}
+
+.form-wrap .input-grp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-wrap .input-grp input[type="text"] {
+    width: 165px;
+}
+
+.form-wrap input[type="text"] {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid rgb(253, 180, 42);
+    padding: 10px;
+    outline: none;
+}
+
+.form-wrap input[type="text"]:focus {
+    border-color: #0088a9;
+}
+
+.form-wrap ul {
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrap ul li{
+    list-style: none;
+}
+
+.form-wrap ul li .level{
+    color: #333;
+}
+
+
+.form-wrap ul li:first-child{
+    margin-right: 15px;
+}
+
+.form-wrap ul .radio-wrap {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.form-wrap ul .radio-wrap .input-radio{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.form-wrap ul .radio-wrap span {
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px 20px;
+    border-radius: 3px;
+    color: #333;
+}
+
+.form-wrap ul .input-radio:checked ~ span {
+    background: #0088a9;
+}
+
+.form-wrap .submit-btn {
+    width: 100%;
+    background: #0088a9;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.form-wrap .submit-btn:hover {
+    background: #29b0d1;
+}
+
+/*sign up form----------------------------------------------*/
+
+/*footer start----------------------------------------------*/
+
+.footer{
+    background-color: #333;
+    margin: 0;
+    padding: 70px 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: chocolate;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #0088a9;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+}
+
+
+/*footer end------------------------------------------------*/
 
 /*----------------------------------media queries start*/
 
-@media screen and (max-width: 992px) {
+
+
+@media screen and (max-width: 1159px) {
+    .how-we-are-different-pros {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1153px) {
+    .image-cover{
+        flex-direction: column;
+        height: 850px;
+        padding-top: 20px;
+    }
+
+    .image-col{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .home-button {
+        display: none;
+    }
+
+    .home-button-responsive{
+        display: block;
+    }
+
+    .home-video{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .home-title{
+        margin-top: 20px;
+    }
+
+    .home-button-responsive{
+        margin-right: 30px;
+
+    }
+
+}
+
+   
+
+
+@media screen and (max-width: 1140px) {
   
     /*hamburger toggle menu start*/
     .nav_links {
         display: none;
     }
+
+    .Courses-Button button {
+        display: none;
+    }
   
     .menu-bars {
-        position: fixed;
+        position: static;
         top: 1rem;
         right: 2em;
         z-index: 10;
         display: inline;
         cursor: pointer;
+        margin-right: 40px;
       }
       
       .bar1, .bar2, .bar3 {
@@ -222,11 +944,86 @@ header{
 
         /*toggle menu items end*/
 
+
        /*---------------------hamburger toggle menu end*/
-        
+
+      .home-youtube-video{
+          display: none;
+      }
 }
 
 
 
+@media screen and (max-width: 959px) {
+    .how-we-are-different-pros {
+        width: 300px;
+    }
+}
 
-/*media queries end*/ 
+@media screen and (max-width: 773px) {
+    .home-title {
+        margin-top: 50px;
+    }
+   
+    .image-cover{
+        height: 800px;
+    }
+    
+    .home-text {
+        margin-left: 10px;
+    }
+
+    .home-button {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+
+    .home-button-responsive{
+        visibility: hidden;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 773px) {
+    .review{
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 593px) {
+    .image-cover{
+        height: 900px;
+    }
+    
+
+    .footer-col{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .image-cover{
+        height: 950px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image-cover{
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .image-cover{
+        height: 1350px;
+    }
+}
+
+
+
+/*media queries end*/  
