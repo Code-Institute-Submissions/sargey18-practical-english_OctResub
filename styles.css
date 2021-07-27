@@ -656,6 +656,36 @@ img {
 
 /*sign up form----------------------------------------------*/
 
+
+
+
+
+/*contact us page start/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  
+.contact-outer{
+    background-color: #fff;
+}
+
+.contact-form{
+    background: chocolate;
+    padding: 25px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.contact-text textarea {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+/*contact us page end/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
 /*footer start----------------------------------------------*/
 
 .footer{
@@ -958,6 +988,11 @@ ul {
     .how-we-are-different-pros {
         width: 300px;
     }
+
+    .contact-form{
+        margin-top: 90px;
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 773px) {
@@ -982,6 +1017,8 @@ ul {
     .home-button-responsive{
         visibility: hidden;
     }
+
+
 
     .footer-col {
         width: 50%;
