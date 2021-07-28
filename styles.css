@@ -434,6 +434,8 @@
 
 /*cheap courses end----------------------------------*/
 
+
+
 /*reviews start-----------------------------------------*/
 
 .rev-outer{
@@ -523,6 +525,32 @@ img {
 }
 
 /*other courses end-----------------------------------------*/
+
+/*individual articles start /////////////////////////////////////////////////////////*/
+
+.article-banner {
+    padding-top: 100px;
+    height: 50%x;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.article-banner .article-title h1 {
+    font-size: 22px;
+    color: chocolate;
+
+}
+
+
+
+
+/* individual articles end /////////////////////////////////////////////////////////*
+
+
+
+
+
 
 /*sign up form----------------------------------------------*/
 
@@ -723,11 +751,11 @@ img {
 
 
 
-
-
-
-
 /*common student articles end /////////////////////////////////////////////////////////*/
+
+
+
+
 
 /*footer start----------------------------------------------*/
 
