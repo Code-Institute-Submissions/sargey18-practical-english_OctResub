@@ -157,14 +157,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* elements with the same propoties end-------------*/
 
 
@@ -528,38 +520,135 @@ img {
 
 /*individual articles start /////////////////////////////////////////////////////////*/
 
-.article-banner {
+/*article banner start------------------------------------*/
+
+.article-banner{
+
     padding-top: 100px;
-    height: 50%x;
+    height: 50%;
     width: 100%;
     justify-content: center;
     text-align: center;
-    background-color: #0088a9;
+    display: flex;
+    flex-direction: column;
 
 }
+
 
 .article-banner .article-title h1 {
     font-size: 40px;
-    color: #fff;
-    margin: 10px;
+    color: chocolate;
     padding: 10px;
+
 
 }
 
-.article-banner .article-title h4 {
+.article-banner .article-table-of-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.article-table-of-content-border{
+    background: lightgrey;
+    padding: 25px;
+    border-radius: 5px;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.article-table-of-content-border .related-articles h4, 
+.article-table-of-content-border .related-articles ul,
+.article-table-of-content-border .table-of-content h4, 
+.article-table-of-content-border .table-of-content ul {
     font-size: 30px;
-    color: #fff;
+    color: #333;
     margin: 10px;
     padding: 10px;
 }
 
-.article-banner .article-title ul {
-    font-size: 20px;
-    color: #fff;
-    margin: 5px;
-    padding: 5px;
+/*article banner end----------------------------*/
+
+
+/*article content start----------------------------------*/
+
+
+.article-content-border{
+   
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 
 }
+
+.article-content-border .article-text-border {
+    flex-wrap: wrap;
+    margin: 0;
+
+
+}
+
+.article-text {
+    min-width: 200px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.article-text .fas{
+    font-size: 80px;
+    color: chocolate;
+    padding: 20px 0 20px 0;
+
+}
+
+
+.article-text h4{
+    font-size: 30px;
+    text-align: center;
+    color: #0088a9;
+}
+
+.article-text-border {
+    font-size: 22px;
+
+}
+
+.article-text .article-text-all{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+
+.article-text-page-align {
+    width: 500px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.article-text-page-style{
+    text-align: left;
+    
+}
+
+
+/*article content end-----------------------------------*/
+
+
+
 /* individual articles end /////////////////////////////////////////////////////////*
 
 
@@ -576,9 +665,6 @@ img {
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 
 .signup-form{
@@ -1081,6 +1167,14 @@ ul {
     }
 }
 
+@media screen and (max-width: 889px) {
+    .article-text-page-align {
+        width: 400px;
+        font-size: 28px;
+    }
+}
+
+
 @media screen and (max-width: 773px) {
     .home-title {
         margin-top: 50px;
@@ -1118,6 +1212,13 @@ ul {
     }
 }
 
+@media screen and (max-width: 739px) {
+    .article-text-page-align {
+        width: 80%;
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 593px) {
     .image-cover{
         height: 900px;
@@ -1138,6 +1239,12 @@ ul {
 @media screen and (max-width: 500px) {
     .image-cover{
         height: 1250px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .article-table-of-content-border{
+        width: 290px;
     }
 }
 
