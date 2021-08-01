@@ -103,6 +103,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(197, 193, 193);
+    padding-bottom: 20px;
 }
 
 .cheap-course-title {
@@ -347,7 +349,7 @@
     align-items: center;
  }
 
- .popular-articles h2, .section-title{
+ .popular-articles h2 {
     color: chocolate;
     font-size: 40px;
     margin: 20px;
@@ -993,6 +995,16 @@ ul {
     background-color: #fff;
 }
 
+.page-title .page-title-text {
+    font-size: 60px;
+    color: #0088a9;
+    font-weight: 500px;
+}
+
+
+
+
+
 
 /*footer end------------------------------------------------*/
 
@@ -1315,4 +1327,4 @@ ul {
 
 
 
-/*media queries end*/  
+/*media queries end*/
