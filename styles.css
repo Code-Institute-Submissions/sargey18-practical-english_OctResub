@@ -1298,21 +1298,27 @@ ul {
 }
 
 @media screen and (max-width: 500px) {
+
     .image-cover{
-        height: 1250px;
+        height: 700px;
     }
+    .image-col {
+        width: auto;
+    }
+    
+
 }
 
 @media screen and (max-width: 420px) {
+
+   
     .article-table-of-content-border{
         width: 290px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .image-cover{
-        height: 1350px;
-    }
+
 
     .how-we-are-different-pros {
         width: 200px;
