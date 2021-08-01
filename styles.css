@@ -98,7 +98,7 @@
 
 
 
-.cheap-course-outer,  .how-we-are-different-outer{
+.cheap-course-outer  {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +120,7 @@
 
 
 
-.cheap-course-inner,  .how-we-are-different-inner{
+.cheap-course-inner {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -128,7 +128,7 @@
 
 
 
-.cheap-course-inner .cheap-course-text-all, .how-we-are-different-inner .how-we-are-different-text-all{
+.cheap-course-inner .cheap-course-text-all {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -137,7 +137,7 @@
    
 }
 
-.cheap-course-student, .how-we-are-different-pros{
+.cheap-course-student{
     width: 300px;
     min-width: 200px;
     flex-grow: 1;
@@ -145,7 +145,7 @@
     padding: 20px 20px 0 20px;
 }
 
-.cheap-course-student .fas, .how-we-are-different-pros .fas{
+.cheap-course-student .fas {
     font-size: 40px;
     color: chocolate;
 }
@@ -159,7 +159,50 @@
 
 /* elements with the same propoties end-------------*/
 
+/*how we are different start --------------------------------*/
 
+
+.how-we-are-different-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-we-are-different-inner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #47bad6;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.how-we-are-different-inner .how-we-are-different-text-all .how-we-are-different-pros{
+    text-align: center;
+}
+
+.how-we-are-different-inner .how-we-are-different-text-all .how-we-are-different-pros .fas{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.how-we-are-different-inner .how-we-are-different-text-all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+
+
+
+
+
+/*how we are different end-----------------------------------*/
 
 /* student problems start-------------------------------------------*/
 
@@ -255,11 +298,15 @@
 .how-we-are-different-outer{
     background-color: #0088a9;
     color: #fff;
+    padding-bottom: 20px;
 }
 
  .how-we-are-different-title h3{
     color: #fff;
     margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
 }
 
 .how-we-are-different-pros {
@@ -267,17 +314,22 @@
 }
 
 .how-we-are-different-text-all .how-we-are-different-pros i {
-    margin-left: 100px;
     color: #fff;
+}
+
+.how-we-are-different-text-all .how-we-are-different-text-all{
+    align-items: center;
+    justify-content: center;
 }
 
 .how-we-are-different-text-all .how-we-are-different-text-all h3{
     color:#fff ;
     font-size: 35px;
+    padding-bottom: 10px;
 }
 
 .how-we-are-different-text-all .how-we-are-different-text-all ul{
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.5;
 }
 
@@ -701,10 +753,7 @@ img {
     color:#fff ;
 }
 
-.form-wrap .input-grp{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .form-wrap .input-grp input[type="text"] {
     width: 165px;
@@ -1055,7 +1104,7 @@ ul {
             z-index: 9;
             top: 0;
             left: 0;
-            width: 100vw;
+            width: 80vw;
             height: 100vh;
             background-color: rgba(0, 0, 0, 0.7);
             transform: translateX(-100vw);
@@ -1077,7 +1126,7 @@ ul {
 
         .nav_toggle, .nav_toggle .nav_links_toggle {
             height: 100vh;
-            width: 100vw;
+            width: 80vw;
             margin: 0;
             padding: 0;
         }
@@ -1252,6 +1301,16 @@ ul {
     .image-cover{
         height: 1350px;
     }
+
+    .how-we-are-different-pros {
+        width: 200px;
+    }
+
+    .signup-form{
+        width: 300px;
+    }
+
+
 }
 
 
