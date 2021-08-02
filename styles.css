@@ -905,7 +905,136 @@ img {
 
 /*common student articles end /////////////////////////////////////////////////////////*/
 
+/*courses start ////////////////////////////////////////////////////////*/
 
+/*common student articles start ////////////////////////////////////////////////*/
+
+.start-here-outer{
+    background-color: #0088a9;
+
+}
+
+.start-here-title h2, .start-here-title p {
+    color: #fff;
+}
+
+.start-here-title h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.start-here-title p{
+    font-size: 22px;
+}
+
+.start-here-outer .start-here-title span{
+    text-transform: uppercase;
+}
+
+.popular-articles-container{
+    background-color: #fff;
+}
+
+
+
+/*common student articles end /////////////////////////////////////////////////////////*/
+
+
+
+/*student courses start //////////////////////////////////////////////////*/
+
+ .outer-articles .courses-outer-border {
+     padding-bottom: 20px;
+ }
+
+ .course-card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 250px 80px;
+    grid-template-areas: "course-image" "course-text" "course-stats";
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .25);
+    text-align: center;
+    margin: 20px;
+}
+
+.course-image {
+    grid-area: course-image;
+    background: url("images/people-2557396_1920.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.course-text {
+    grid-area: course-text;
+    margin: 25px;
+}
+
+.course-text .date {
+    color: chocolate;
+    font-size: 13px;
+}
+
+.course-text p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.course h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.course-stats {
+    grid-area: course-stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #0088a9;
+}
+
+.course-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.course-stats .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.course-stats .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.course-stats .border {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+
+
+
+
+/*student courses end //////////////////////////////////////////////////*/
+
+
+
+
+
+/*courses end////////////////////////////////////////////////////////////*/
 
 
 
