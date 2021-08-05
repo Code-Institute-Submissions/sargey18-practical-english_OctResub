@@ -695,6 +695,7 @@ img {
 
 .article-text-page-style{
     text-align: left;
+    width: 600px;
     
 }
 
@@ -1030,11 +1031,30 @@ img {
 
 /*student courses end //////////////////////////////////////////////////*/
 
+/*student landing page start //////////////////////////////////////////////////*/
+
+
+.landing-review-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+
+.landing-review-card {
+    background-color: rgb(241, 241, 243);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
 
 
 
 
-/*courses end////////////////////////////////////////////////////////////*/
+
+
+
+/*courses landing page end ////////////////////////////////////////////////////////////*/
 
 
 
