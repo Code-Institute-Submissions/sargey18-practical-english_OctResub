@@ -721,6 +721,10 @@ img {
     align-items: center;
 }
 
+.coming-soon {
+    height: 95vh;
+}
+
 
 .signup-form{
     background: chocolate;
