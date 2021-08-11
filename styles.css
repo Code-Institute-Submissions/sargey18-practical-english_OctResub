@@ -607,7 +607,7 @@ img {
 }
 
 .article-table-of-content-border{
-    background: lightgrey;
+    background:rgb(238, 238, 238);
     padding: 25px;
     border-radius: 5px;
     width: 400px;
@@ -631,6 +631,7 @@ img {
 
 
 /*article content start----------------------------------*/
+
 
 
 .article-content-border{
@@ -1231,7 +1232,7 @@ ul {
    
 
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1155px) {
   
     /*hamburger toggle menu start*/
     .nav_links {
@@ -1473,9 +1474,14 @@ ul {
 
 @media screen and (max-width: 739px) {
     .article-text-page-align {
-        width: 80%;
+        width: 100%;
         font-size: 28px;
     }
+}
+
+
+@media screen and (max-width: 709px) {
+
 }
 
 @media screen and (max-width: 593px) {
