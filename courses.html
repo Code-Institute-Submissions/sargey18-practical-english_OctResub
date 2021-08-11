@@ -87,8 +87,8 @@
     <div class="image-col">
         <h1 class="home-title"> All<span class="blue"> Courses</span></h1>
         <p class="home-text"> These course give a complete road map to get from beginner to intermediate level, if you want more information on which course is right for your level then click the button to get our personal recommendation  for your needs</p>
-        <a class="home-button">
-            <button>Click Here</button> 
+        <a class="home-button" href="#study-guides">
+            <button>Guides</button> 
         </a>        
     </div>
     <div class="home-video">
@@ -96,8 +96,8 @@
             <div class="home-youtube-video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/g-IIiui-jC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <a id="form-title" class="home-button home-button-responsive">
-                <button>Click Here</button> 
+            <a id="form-title" class="home-button home-button-responsive" href="#study-guides">
+                <button>Guides</button> 
             </a>
         </div>
     
@@ -207,7 +207,7 @@
  <div class="form-outer">
       
   
-    <div class="signup-form">
+    <div class="signup-form" id="study-guides">
           <div id="form-title" class="title">Get Your Custom Study Timetable</div>
 
       <form>
@@ -215,16 +215,16 @@
               <div class="input-grp">
                   <div class="input-wrap">
                       <label for="fname">First Name</label>
-                      <input type="text" id="fname">
+                      <input type="text" id="fname" required>
                   </div>
                   <div class="input-wrap">
                       <label for="lname">Last Name</label>
-                      <input type="text" id="lname">
+                      <input type="text" id="lname" required>
                   </div>
               </div>
                   <div class="input-wrap">
                       <label for="email">Email Address</label>
-                      <input type="text" id="email">
+                      <input type="text" id="email" required>
                   </div>
 
                   <div class="input-wrap">
@@ -242,7 +242,7 @@
                               <label class="radio-wrap">
                                   <input type="radio" name="student-level"
                                   value="intermidiate" class="input-radio">
-                                  <span class="level">intermidiate</span>
+                                  <span class="level">Intermidiate</span>
                               </label>
                           </li>
 
@@ -251,12 +251,12 @@
 
                   <div class="input-wrap">
                       <label for="occupation">Occupation</label>
-                      <input type="text" id="occupation">
+                      <input type="text" id="occupation" required>
                   </div>
 
                   <div class="input-wrap">
                       <label for="city">City</label>
-                      <input type="text" id="city">
+                      <input type="text" id="city" required>
                   </div>
 
                   <div class="input-wrap">
