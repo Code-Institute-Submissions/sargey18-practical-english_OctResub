@@ -731,7 +731,7 @@ img {
     background: chocolate;
     padding: 25px;
     border-radius: 5px;
-    width: 400px;
+    width: 50%;
 }
 
 .signup-form .title {
@@ -1480,8 +1480,12 @@ ul {
 }
 
 
-@media screen and (max-width: 709px) {
+@media screen and (max-width: 691px) {
 
+.signup-form{
+  
+    width: 300px;
+}
 }
 
 @media screen and (max-width: 593px) {
