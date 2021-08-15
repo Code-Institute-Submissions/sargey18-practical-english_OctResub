@@ -39,9 +39,13 @@
     flex-direction: row;
 }
 
+.navbar a {
+    text-decoration: none;
+}
+
 .logo {
     flex: 1 1 auto;
-    color:red;
+    color:  #0088a9;
     margin-left: 10%;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -655,6 +659,12 @@ img {
 
 }
 
+.related-articles .content-style li{
+    text-decoration: none;
+    font-size: 18;
+
+}
+
 .article-text {
     min-width: 200px;
     flex-grow: 1;
@@ -1071,6 +1081,10 @@ img {
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
 
+.landing-review-card .landing-review-details .landing-review-author .fa-google{
+    color: red;
+}
+
 
 
 
@@ -1078,7 +1092,6 @@ img {
 
 
 /*courses landing page end ////////////////////////////////////////////////////////////*/
-
 
 
 /*footer start----------------------------------------------*/
@@ -1240,10 +1253,12 @@ ul {
     /*hamburger toggle menu start*/
     .nav_links {
         display: none;
+        position: absolute;
     }
 
     .Courses-Button button {
         display: none;
+        position: absolute;
     }
   
     .menu-bars {
@@ -1484,9 +1499,10 @@ ul {
 
 @media screen and (max-width: 691px) {
 
-.article-content-border{
-
-}
+    .article-table-of-content iframe{
+        display: none;
+        position: absolute;
+    }
 
 .signup-form{
     width: 300px;
@@ -1538,7 +1554,7 @@ ul {
 
 @media screen and (max-width: 445px) {
     .navbar-home{
-        width: 4em;
+        width: 100%;
     }
 
     .navigation-top{
