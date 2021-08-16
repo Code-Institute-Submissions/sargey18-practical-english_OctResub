@@ -108,6 +108,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(243, 241, 241);
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -1185,6 +1186,8 @@ ul {
     color: #0088a9;
     font-weight: 500px;
 }
+
+
 
 
 
