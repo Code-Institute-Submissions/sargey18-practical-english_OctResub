@@ -304,6 +304,35 @@ The developer ran into a number of issues during the development of the websites
 ## Testing 
 
 
+The W3C Markup Validator service was used to validate the HTML code used.
+
+The HTML validator came back with two warnings that were unresolved.
+
+- The first is referring to the comments within the text. I used ---------------------- to identify different sections and make it easier for other coders to see where these sections start end and, this will not be changed and will be kept in.
+
+- The second is a warning talking about <a> being use with <button> tags. According to the error, <a> should not go around a button tag, however I was unable to find why this was the case, not only have I seen other coders do this as well but the buttons work with the intended styling. Therefore this will stay in this project, but will be corrected on in future projects. 
+
+The W3C CSS Validator service was used to validate the CSS coded used.
+
+### Corrections
+
+Their were several main corrections that had to be fixed. 
+
+These corrections where mainly done using Google Dev tools.
+
+The first was  mobile responsive on the home page, several elements where too large and were causing the navbar to be too large below 400. To correct this I first had to identify which elements were larger using the developer tools and then using a mix of media queries and changing the width to 100% this was then fixed. 
+
+The second was the hamburger menu being unresponsive with the overlay menu. This was caused with the hamburger menu being under the overlay element. The easiest way to fix this was to move the menu icon to the right of the screen allowing the user to click the menu open and closed. 
+
+## User Testing 
+
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience.
+
+It was through this testing that the following changes were made:
+
+Change to the Navbar background color in order for the toggler menu icon to more visable . 
+Change to Navbar font-size on mobile for clearer reading.
+
 
 
 

@@ -74,7 +74,7 @@
     color: #0088a9;
 }
 
-.Courses-Button button {
+.Courses-Button .Course-button-style {
     font-size: 18px;
     padding: 15px 25px;
     background-color: chocolate;
@@ -85,7 +85,7 @@
     color: white;
 }
 
-.Courses-Button button:hover {
+.Courses-Button .Course-button-style:hover {
     background-color: rgb(233, 158, 105);
  
 }
@@ -140,7 +140,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 20px 0;
     padding: 20px;
    
 }
@@ -373,6 +373,7 @@
     justify-content: center;
     align-items: center;
     position:relative ;
+    width: 100%;
 }
 
 .container {
@@ -422,7 +423,6 @@
 
 .content-container p{
     color: grey;
-    font-weight: 700px;
     font-size: 12px;
     letter-spacing: 0.02rem;
     line-height: 1.3rem;
@@ -541,7 +541,7 @@ img {
 .body-review {
     background-color: rgb(238, 238, 238);
     padding: 2.5rem;
-    box-shadow: 2px 2px 10x 3px rgb(225, 225, 225);
+    box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
 }
 
 .name-review {
@@ -646,7 +646,6 @@ img {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: top;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -662,14 +661,14 @@ img {
 
 .related-articles .content-style li{
     text-decoration: none;
-    font-size: 18;
+    font-size: 18px;
 
 }
 
 .article-text {
     min-width: 200px;
     flex-grow: 1;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -1184,7 +1183,7 @@ ul {
 .page-title .page-title-text {
     font-size: 60px;
     color: #0088a9;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 
@@ -1259,15 +1258,16 @@ ul {
         position: absolute;
     }
 
-    .Courses-Button button {
+    .Courses-Button .Course-button-style {
         display: none;
         position: absolute;
     }
   
     .menu-bars {
         position: static;
+        
         top: 1rem;
-        right: 2em;
+        right: 4em;
         z-index: 10;
         display: inline;
         cursor: pointer;
@@ -1277,7 +1277,7 @@ ul {
       .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: #333;
+        background-color: red;
         margin: 6px 0;
         transition: 0.4s;
       }
