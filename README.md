@@ -61,6 +61,8 @@ The ideal user for this website is
 In order to create a comprehensive and informative website, the developer worked closely with the students to distinguish the required functionality of the site and how it would answer the user stories, as described above.
 
 
+
+
 ### Strategy
 
 Broken into three categories, the website will focus on the following target audiences:
@@ -112,6 +114,45 @@ The user will be looking for
 
 ## Design 
 
+The design was completed on Figma and gives the basic layout for the site and how the pages will be connected to each other. 
+
+Below are the wire fames for the website.
+
+The home page, navbar, header and mission statement. 
+
+![Github  design](/assets/images/home.png )
+
+The home page, with the most popular articles. 
+
+![Github  design](/assets/images/articles-home.png )
+
+The home page with our cheapest course. 
+
+![Github  design](/assets/images/cheapcourse).png )
+
+The home page with all of our other courses 
+
+![Github  design](/assets/images/courses.png )
+
+The home page the sign-up 
+
+![Github  navbar](/assets/images/subscribe.png )
+
+The about page layout 
+
+![Github  design](/assets/images/about.png )
+
+The articles page 
+
+![Github  design](/assets/articles.png )
+
+The contact page
+
+![Github  navbar](/assets/images/contact.png )
+
+
+
+
 ### Color
 
 The main color scheme will be orange and blue. due to the contrast when next to each other this will allow us to guide the users eye to call to action buttons and key information. 
@@ -125,7 +166,7 @@ This section we will go over the features of the website and why they are useful
 
 ### Navbar
 
-![Github  navbar](/images/Untitled-design-(14).png )
+![Github  navbar](/assets/images/Untitled-design-(14).png )
 
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
@@ -134,26 +175,26 @@ This section will allow the user to easily navigate from page to page across all
 
 It also shows students that we are focusing on common student problems and has a call to action for the courses that stands out from the rest of the nav items. 
 
-This menu is also sticky, showing these menus whereever the students are on the page. 
+This menu is also sticky, showing these menus where ever the students are on the page. 
 
 The responsive overlay menu also highlights the courses options
 
 ### Banner heading (home page)
 
-![Github  heading](/images/Untitled-design-(15).png )
+![Github  heading](/assets/images/Untitled-design-(15).png )
 
 The banner is made so students can identify with our chosen nich. It has a call to action button taking students to our courses page, which students see to who these courses are aimed for and why we created them. 
 
 The page is also set next to a video introduction that will give a more detailed explaination about our courses and give further instructions to the users. 
 
 ### Mission statment 
-![Github  mission](/images/Untitled-design-(16).png )
+![Github  mission](/assets/images/Untitled-design-(16).png )
 
 
 The mission statment was used so the users could quickly identfy how our courses are different from other similar courses online. 
 
 ### Common student problems
-![Github  problems](/images/Untitled-design-(17).png )
+![Github  problems](/assets/images/Untitled-design-(17).png )
 
 This section leads into our blog section, which focuses on study activities based on the main problems that students have. 
 
@@ -164,7 +205,7 @@ The article cards have buttons that can be clicked to take the user to the artic
 The article card also shows the student what the activity is focusing on (Vocabualry, listening, reading, writing, grammar or speaking), further helping the user understand what they are looking at and if they will find this resource useful.
 
 ### Cheap course promotion 
-![Github  course](/images/Untitled-design-(18).png )
+![Github  course](/assets/images/Untitled-design-(18).png )
 
 
 This is the bullet proof memory course, which we use to understand who is interested in our material and willing to spend money. 
@@ -174,14 +215,14 @@ This offers a title exclaming steal my method, an image with the name and discou
 It also has a call to action next to several of flex wraps, which give quick summaries of the course content. 
 
 ### Reviews 
-![Github  reviews](/images/Untitled-design-(19).png )
+![Github  reviews](/assets/images/Untitled-design-(19).png )
 
 The reviews are used under the course to give credability to the course above and the courses below. 
 
 It consists of a name tag, star rating, location of the studet and description. The description is focusing on why the courses helped the student advance to the next level. 
 
 ### Other courses 
-![Github  other-courses](/images/Untitled-design-(20).png )
+![Github  other-courses](/assets/images/Untitled-design-(20).png )
 
 The item cards here are different to the blog cards to avoid confusion and make them stand out. 
 
@@ -189,8 +230,8 @@ We have the name ofthe course, an image, description of the course, call to acti
 
 The courses are designed to be a lot more expensive than the bullet proof memory course. This is because it will make the bullet proof memory course look more attractive and cheaper and most of our sales will be coming from the specific offers in the retargeting ads. 
 
-### sign up 
-![Github  signup](/images/Untitled-design-(21).png )
+### Sign-up 
+![Github  signup](/assets/images/Untitled-design-(21).png )
 
 This is the news letter sign up, called the custom study timetable. 
 
@@ -201,7 +242,7 @@ Please note:The signup form has been used on many different pages and all the bl
 Due to several of the courses not being made yet, I created a coming soon page, using the same form design. Allowing students to keep informed about upcoming releases. 
 
 ### footer 
-![Github  footer](/images/Untitled-design-(22).png )
+![Github  footer](/assets/images/Untitled-design-(22).png )
 
 
 The footer section is broken down into four sections. Each section has the title underlined and allows for easier navigation around site. 
@@ -209,7 +250,7 @@ The footer section is broken down into four sections. Each section has the title
 It contains the privacy policies, navigation, contact and social media we are using.
 
 ### study activities/blog page 
-![Github  blog](/images/Untitled-design-(23).png )
+![Github  blog](/assets/images/Untitled-design-(23).png )
 
 
 The blog page page is broken down into four sections. 
@@ -225,7 +266,7 @@ Sign up to our newsletter: One of the resonse that there are a lot of articles i
 
 ## About page 
 
-![Github  about](/images/Websites.png )
+![Github  about](/assets/images/Websites.png )
 
 
 The about page is one of the higest converting pages on a website. 
@@ -260,7 +301,7 @@ The price card is holds the price of the course and the course index/lesson name
 
 ### All Courses 
 
-![Github  blog](/images/Untitled-design-(24).png )
+![Github  blog](/assets/images/Untitled-design-(24).png )
 
 This page is broken down into three sections. 
 
@@ -287,6 +328,8 @@ Chatbot (Manychat) embeded onto the website to link the automation on the websit
 
 The developer ran into a number of issues during the development of the websites, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
+
+
 ### Navbar Bug 
  A bug was detected early on with the Navigation bar. In implementing a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recolored to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on Stack Overflow with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to implement a solution to the bug, with celebratory success.
 
@@ -305,6 +348,11 @@ The developer ran into a number of issues during the development of the websites
 
 
 The W3C Markup Validator service was used to validate the HTML code used.
+
+Along with the lighthouse function from the Google dev tools. 
+
+![Github  lighthouse](/assets/images/lighthouse.png )
+
 
 The HTML validator came back with two warnings that were unresolved.
 
@@ -332,6 +380,17 @@ It was through this testing that the following changes were made:
 
 Change to the Navbar background color in order for the toggler menu icon to more visable . 
 Change to Navbar font-size on mobile for clearer reading.
+
+
+## Future recommendations 
+
+In the future I would like to connect the sign ups to email automation using either laravel or python, this was ust outside of the timeframe of this current project. 
+
+I would also like to create a logo to be used on the mobile navbar rather than the text. 
+
+I also need to link the footer social media icons to the correct pages and create the cookie and private policies. 
+
+Also, according to the lighthouse report, one of the main issues slowing the website down is the image sizes, this will need to be reduced before the website goes live. 
 
 
 
