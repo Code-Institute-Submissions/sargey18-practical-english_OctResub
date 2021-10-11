@@ -262,8 +262,8 @@
 }
 
 .home-button button, 
-.image-cover .image-col button  {
-    padding:  20px 40px 40px;
+.image-cover .image-col .home-button  {
+    padding:  13px 40px;
     margin-top: 50px;
     height: 40px;
     width: 180px;
@@ -284,7 +284,8 @@
 
 
 
-.home-button button:hover {
+.home-button button:hover, .image-cover .image-col .home-button:hover {
+    
     background-color: rgb(233, 158, 105);
 }
 
