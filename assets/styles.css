@@ -84,7 +84,9 @@
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: white;
+    
 }
+
 
 .Courses-Button .Course-button-style:hover {
     background-color: rgb(233, 158, 105);
@@ -263,7 +265,8 @@
 }
 
 .home-button button, 
-.image-cover .image-col .home-button  {
+.image-cover .image-col .home-button
+  {
     padding:  13px 40px;
     margin-top: 50px;
     height: 40px;
@@ -1099,6 +1102,40 @@ img {
 .landing-review-card .landing-review-details .landing-review-author .fa-google{
     color: red;
 }
+
+.article-banner .landing-btn-outline, 
+.article-text-all .landing-btn-outline,
+.article-content-border .landing-btn-outline
+ {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.article-banner .landing-btn-outline  .landing-btn, 
+.article-text-all .landing-btn-outline .landing-btn,
+.article-content-border .landing-btn-outline .landing-btn{
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.article-banner .landing-btn-outline  .landing-btn:hover,
+.article-text-all .landing-btn-outline .landing-btn:hover,
+.article-content-border .landing-btn-outline .landing-btn:hover
+
+    {
+    background-color: rgb(221, 135, 74);
+}
+
+
 
 
 
