@@ -111,6 +111,7 @@
     background-color: rgb(243, 241, 241);
     padding-top: 50px;
     padding-bottom: 20px;
+    height: 100%;
 }
 
 .cheap-course-title {
@@ -1558,7 +1559,7 @@ ul {
    
 
     .menu-bars{
-        padding-left: 300px;
+        padding-left: 30px;
     }
     
 
@@ -1601,6 +1602,11 @@ ul {
     .signup-form{
         width: 300px;
     }
+
+    .cheap-course-inner .cheap-course-text-all {
+        padding: 0;
+    }
+
 
 
 }
