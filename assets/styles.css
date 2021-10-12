@@ -269,7 +269,7 @@
     width: 180px;
     font-size: 20px;
     font-weight: 100;
-    background-color: red;
+    background-color: chocolate;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -1478,10 +1478,7 @@ ul {
     }
 
     .home-button {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        margin-top: 10px;
     }
 
 
@@ -1490,18 +1487,20 @@ ul {
     }
 
 
+    .review{
+        margin-top: 1.5rem;
+    }
+
 
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
+
+
 }
 
-@media screen and (max-width: 773px) {
-    .review{
-        margin-top: 1.5rem;
-    }
-}
+
 
 @media screen and (max-width: 739px) {
     .article-text-page-align {
