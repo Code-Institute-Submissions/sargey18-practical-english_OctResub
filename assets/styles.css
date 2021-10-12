@@ -269,7 +269,7 @@
     width: 180px;
     font-size: 20px;
     font-weight: 100;
-    background-color: chocolate;
+    background-color: red;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -280,14 +280,10 @@
 }
 
 
-
-
-
-
 .home-button button:hover, .image-cover .image-col .home-button:hover {
-    
     background-color: rgb(233, 158, 105);
 }
+
 
 .home-video {
     width: 50vw;
@@ -1482,8 +1478,10 @@ ul {
     }
 
     .home-button {
-        display: block;
-        margin-bottom: 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
 
