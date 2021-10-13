@@ -98,6 +98,19 @@ Study Activities
 ![study activities page ](assets/images/test/validation/studyactivities.png)
 
 
+## Css validation / Javascipt validation 
+
+The W3C CSS Validator service was used to validate the CSS coded used.
+
+CSS 
+![css ](assets/images/test/validation/cssval.png)
+
+
+Javascript 
+
+![javascript ](assets/images/test/validation/javascript.png)
+
+
 
 
 
