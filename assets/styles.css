@@ -1415,20 +1415,7 @@ ul {
             transform: scale(1.2);
         }
 
-        .nav_links_toggle li a::before{
-            content: "";
-            width: 15vw;
-            height: 3px;
-            background-color: white;
-            position: absolute;
-            top: 47.5%;
-            left: 0;
-            opacity: 0;
-        }
 
-        .nav_links_toggle li a::before{
-            opacity: 1;
-        }
 
         .nav_links_toggle li:nth-of-type(1) {
             background-color: var(--primary-color);
