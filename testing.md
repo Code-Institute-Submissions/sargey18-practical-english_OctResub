@@ -111,6 +111,26 @@ Javascript
 ![javascript ](assets/images/test/validation/javascript.png)
 
 
+# Browser testing 
+
+- ![chrome ](assets/images/test/validation/chrome2.png)
+
+- ![FireFox ](assets/images/test/validation/fire2.png)
+
+- ![Edge ](assets/images/test/validation/edge2.png)
+
+
+
+
+# User Testing 
+
+Students were asked about what type of problems they where having when studying English. 
+
+This was then used to create the titles of the articles and the questions in the article image related to the article. 
+
+This ensures that the questions are matched as closely to the students needs as possible. 
+
+
 
 
 
