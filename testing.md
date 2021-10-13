@@ -26,3 +26,37 @@ As a current customer I want the ability to contact the company if I have any qu
 As a current customer I want a clear leaning path that I can progress on.
 - The courses have been labeled based on the users level which will allow them to identify which is the next course they should take. 
 
+
+# Manual Testing 
+
+## Common Elements Testing 
+
+Manual testing was conducted on the following elements that appear on every page and the most important elements of the website. 
+
+Home Page responsive design + Navbar responsive
+![Home page responsive](assets/images/test/userTesting/homeResponse.gif)
+
+About page responsive design 
+![Home page responsive](assets/images/test/userTesting/aboutResponse.gif)
+
+Blog page (study activities) responsive design
+![Home page responsive](assets/images/test/userTesting/blogResponse.gif)
+
+Contact page responsive design
+![Home page responsive](assets/images/test/userTesting/contactResponse.gif)
+
+Article responsive design 
+![Home page responsive](assets/images/test/userTesting/articleResponse.gif)
+
+Landing page response design
+![Home page responsive](assets/images/test/userTesting/landingResponse.gif)
+
+
+
+
+
+
+
+
+
+
