@@ -135,7 +135,13 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 100vw;
+
+}
+
+.cheap-course-image-ink  {
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -464,7 +470,7 @@
     padding: 20px;
 }
 
- a.cheap-course-image {
+ .cheap-course-image {
     display: block;
     margin-right: auto;
     margin-left: auto;
