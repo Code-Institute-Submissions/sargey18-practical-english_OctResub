@@ -37,19 +37,78 @@ Home Page responsive design + Navbar responsive
 ![Home page responsive](assets/images/test/userTesting/homeResponse.gif)
 
 About page responsive design 
-![Home page responsive](assets/images/test/userTesting/aboutResponse.gif)
+![about page responsive](assets/images/test/userTesting/aboutResponse.gif)
 
 Blog page (study activities) responsive design
-![Home page responsive](assets/images/test/userTesting/blogResponse.gif)
+![blog page responsive](assets/images/test/userTesting/blogResponse.gif)
 
 Contact page responsive design
-![Home page responsive](assets/images/test/userTesting/contactResponse.gif)
+![contact page responsive](assets/images/test/userTesting/contactResponse.gif)
 
 Article responsive design 
-![Home page responsive](assets/images/test/userTesting/articleResponse.gif)
+![article page responsive](assets/images/test/userTesting/articleResponse.gif)
 
 Landing page response design
-![Home page responsive](assets/images/test/userTesting/landingResponse.gif)
+![landing page responsive](assets/images/test/userTesting/landingResponse.gif)
+
+
+# Automated Testing 
+
+## Code Validation 
+
+The W3C Markup Validator service was used to validate the HTML code used.
+
+index page 
+![Home page ](assets/images/test/validation/index.png)
+
+about page 
+![about page ](assets/images/test/validation/about.png)
+
+Article one
+![article page ](assets/images/test/validation/article1.png)
+
+Article Two 
+![article page ](assets/images/test/validation/article2.png)
+
+Article Three 
+![article page ](assets/images/test/validation/article3.png)
+
+Article Four 
+![article page ](assets/images/test/validation/article4.png)
+
+Article Five 
+![article page ](assets/images/test/validation/article5.png)
+
+Article six 
+![article page ](assets/images/test/validation/article6.png)
+
+Coming Soon
+![coming soon page ](assets/images/test/validation/comingsoon.png)
+
+Contact 
+![contact page ](assets/images/test/validation/contact.png)
+
+Courses 
+![courses page ](assets/images/test/validation/courses.png)
+
+Landing page 
+![landing page ](assets/images/test/validation/landingpage.png)
+
+Study Activities 
+![study activities page ](assets/images/test/validation/studyactivities.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
