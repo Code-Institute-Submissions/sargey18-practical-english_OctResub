@@ -1,5 +1,30 @@
 # Practical English
-## Sales Funnel for Online English Courses
+
+## Table of contents
+
+
+- [Intro](#sales-funnel-for-online-english-courses)
+
+- [UX](#ux)
+
+- [User Stories](#user-stories)
+
+- [Strategy](#strategy)
+
+- [Design](#design)
+
+- [Features](#features)
+
+- [Issues And Bugs](#issues-and-bugs)
+
+- [Testing](#testing)
+
+- [Deployment](#development)
+
+- [credits](#credits)
+ 
+
+# Sales Funnel for Online English Courses
 
 Practical English is a website for students stuck at upper-beginner English level and want to advance to intermidiate level. 
 There are three sections that will help students do this.
@@ -24,9 +49,9 @@ What was needed to make this website was html, css and a minimual amount of java
 
 We needed five pages for the main site plus six articles and one landing page. 
 
-## UX
+# UX
 
-### Ideal User Demographic
+## Ideal User Demographic
 
 The ideal user for this website is 
 
@@ -37,9 +62,9 @@ The ideal user for this website is
 - Students who have tried to study English in the past but have been unsuccessful.
 
 
-## User Stories 
+# User Stories 
 
-### New/Potential Customers Goals:
+## New/Potential Customers Goals:
 - I want to be able to search for activities that I can use to learn English fast. 
 
 - I want activities for listening, reading, writing and speaking. 
@@ -47,7 +72,7 @@ The ideal user for this website is
 - I want to know how I should be studying English
 
 
-### Current Customers  
+## Current Customers  
 - I want to know how I should be studying each day and for how long
 
 - I want a clear study plan that is not complicated to follow
@@ -63,7 +88,7 @@ In order to create a comprehensive and informative website, the developer worked
 
 
 
-### Strategy
+# Strategy
 
 Broken into three categories, the website will focus on the following target audiences:
 
@@ -95,7 +120,7 @@ The website owner needs to be able to
 - Send ads that are based on what the users.
 - Create trust and authority among the users
 
-### Scope 
+## Scope 
 
 Content Requirements
 
@@ -107,12 +132,12 @@ The user will be looking for
 - Recommended Resources 
 
 
-### Functionality Requirements
+## Functionality Requirements
 
 - Easily browse through the website to find the info they want 
 - Easily see how resources and activities connect to other resources and activities 
 
-## Design 
+# Design 
 
 The design was completed on Figma and gives the basic layout for the site and how the pages will be connected to each other. 
 
@@ -153,18 +178,18 @@ The contact page
 
 
 
-### Color
+## Color
 
 The main color scheme will be orange and blue. due to the contrast when next to each other this will allow us to guide the users eye to call to action buttons and key information. 
 
-### Typography
+## Typography
 
 Asul Roboto where the main fonts used, with Asul being used for the text and Roboto being used for the Titles.
 
-## Features
+# Features
 This section we will go over the features of the website and why they are useful for our target niche. 
 
-### Navbar
+## Navbar
 
 ![Github  navbar](/assets/images/Untitled-design-(14).png )
 
@@ -179,7 +204,7 @@ This menu is also sticky, showing these menus where ever the students are on the
 
 The responsive overlay menu also highlights the courses options
 
-### Banner heading (home page)
+## Banner heading (home page)
 
 ![Github  heading](/assets/images/Untitled-design-(15).png )
 
@@ -187,13 +212,13 @@ The banner is made so students can identify with our chosen nich. It has a call 
 
 The page is also set next to a video introduction that will give a more detailed explaination about our courses and give further instructions to the users. 
 
-### Mission statment 
+## Mission statment 
 ![Github  mission](/assets/images/Untitled-design-(16).png )
 
 
 The mission statment was used so the users could quickly identfy how our courses are different from other similar courses online. 
 
-### Common student problems
+## Common student problems
 ![Github  problems](/assets/images/Untitled-design-(17).png )
 
 This section leads into our blog section, which focuses on study activities based on the main problems that students have. 
@@ -204,7 +229,7 @@ The article cards have buttons that can be clicked to take the user to the artic
 
 The article card also shows the student what the activity is focusing on (Vocabualry, listening, reading, writing, grammar or speaking), further helping the user understand what they are looking at and if they will find this resource useful.
 
-### Cheap course promotion 
+## Cheap course promotion 
 ![Github  course](/assets/images/Untitled-design-(18).png )
 
 
@@ -214,14 +239,14 @@ This offers a title exclaming steal my method, an image with the name and discou
 
 It also has a call to action next to several of flex wraps, which give quick summaries of the course content. 
 
-### Reviews 
+## Reviews 
 ![Github  reviews](/assets/images/Untitled-design-(19).png )
 
 The reviews are used under the course to give credability to the course above and the courses below. 
 
 It consists of a name tag, star rating, location of the studet and description. The description is focusing on why the courses helped the student advance to the next level. 
 
-### Other courses 
+## Other courses 
 ![Github  other-courses](/assets/images/Untitled-design-(20).png )
 
 The item cards here are different to the blog cards to avoid confusion and make them stand out. 
@@ -230,7 +255,7 @@ We have the name ofthe course, an image, description of the course, call to acti
 
 The courses are designed to be a lot more expensive than the bullet proof memory course. This is because it will make the bullet proof memory course look more attractive and cheaper and most of our sales will be coming from the specific offers in the retargeting ads. 
 
-### Sign-up 
+## Sign-up 
 ![Github  signup](/assets/images/Untitled-design-(21).png )
 
 This is the news letter sign up, called the custom study timetable. 
@@ -241,7 +266,7 @@ Please note:The signup form has been used on many different pages and all the bl
 
 Due to several of the courses not being made yet, I created a coming soon page, using the same form design. Allowing students to keep informed about upcoming releases. 
 
-### footer 
+## footer 
 ![Github  footer](/assets/images/Untitled-design-(22).png )
 
 
@@ -249,7 +274,7 @@ The footer section is broken down into four sections. Each section has the title
 
 It contains the privacy policies, navigation, contact and social media we are using.
 
-### study activities/blog page 
+## study activities/blog page 
 ![Github  blog](/assets/images/Untitled-design-(23).png )
 
 
@@ -299,7 +324,7 @@ It has a different style of review than the home page because here we are aiming
 
 The price card is holds the price of the course and the course index/lesson names of the course.
 
-### All Courses 
+## All Courses 
 
 ![Github  blog](/assets/images/Untitled-design-(24).png )
 
@@ -314,7 +339,7 @@ Sign up form: Students can get a lot of our information from the course from our
 Imortant: I must stress that I do not expect to make many direct sales from this page, the marketing plan for this site is to get users to sign up to the newsletter and then send custom ads (with deals and discounts to different users)
 
 
-### Features in the future 
+## Features in the future 
 
 A multiple choice for the email sign-up. 
 
@@ -435,7 +460,6 @@ Photographs came from the website [pixabay](https://pixabay.com/ "link to the pi
 All other images were designed myself using [canva](https://www.canva.com/ "canva home page")
 
 ## Code 
-### Code 
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
