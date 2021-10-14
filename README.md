@@ -411,15 +411,36 @@ I also need to link the footer social media icons to the correct pages and creat
 
 Also, according to the lighthouse report, one of the main issues slowing the website down is the image sizes, this will need to be reduced before the website goes live. 
 
+# Deployment 
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+Log into GitHub or create an account.
+Locate the GitHub Repository.
+At the top of the repository, select Settings from the menu items.
+Scroll down the Settings page to the "GitHub Pages" section.
+Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+Upon selection, the page will automatically refresh meaning that the website is now deployed.
+Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+
 
 # Credits
 
-- we3school
-- css tricks 
-- zero to mastery 
-- I will teach you a langauge 
-canva 
+## Content 
+All the content for the articles came from [I will teach you a language.com](https://iwillteachyoualanguage.com/ "link to i will teach you a language homepage ")
 
+## Media 
+Photographs came from the website [pixabay](https://pixabay.com/ "link to the pixaby homepage").
+
+All other images were designed myself using [canva](https://www.canva.com/ "canva home page")
+
+## Code 
+### Code 
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [css tricks](https://css-tricks.com/ "css tricks ")
+- [zero to mastery](https://zerotomastery.io/ "css tricks ")
 
 
 
