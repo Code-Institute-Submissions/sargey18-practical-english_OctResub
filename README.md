@@ -128,7 +128,7 @@ The home page, with the most popular articles.
 
 The home page with our cheapest course. 
 
-![Github  design](/assets/images/cheapcourse).png )
+![Github  design](/assets/images/cheapcourse.png )
 
 The home page with all of our other courses 
 
@@ -144,7 +144,7 @@ The about page layout
 
 The articles page 
 
-![Github  design](/assets/articles.png )
+![Github  design](/assets/images/artilces.png)
 
 The contact page
 
@@ -324,15 +324,69 @@ Chatbot (Manychat) embeded onto the website to link the automation on the websit
 
 
 
-## Issues and Bugs
+# Issues and Bugs
 
 The developer ran into a number of issues during the development of the websites, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
 
 
-### Navbar Bug 
- A bug was detected early on with the Navigation bar. In implementing a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recolored to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on Stack Overflow with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to implement a solution to the bug, with celebratory success.
+## Navbar Bug 
+There was an issue with the navbar responsiveness, the logo and the menu bars would move each other out of place once the screen sze was less then 400px. One option was to take away the logo after 400px, however this would have then caused issues with the users not seeing the name of the site on the small screens. 
 
+To fix this issue I installed a google chrome dev tool called Unicorn Revealer, this highlights the different elements on the page and shows how they interact with each other. 
+
+See below for an example. 
+
+![Github  blog](/assets/images/unicorn.png )
+
+
+This then allowed me to quickly identify the problem with the menu bars and the padding. 
+
+Once I removed the padding I changed the justify-content to space-between for a more even distribution of elements in the navigation bar. This solved the issue 
+
+## Img alt tags 
+This error was identified using the html validator.
+
+Many of my img tags did not have a alt tag with them. 
+
+Using the html validator and the f3 function I was quickly able to correct this problem. 
+
+## Button error
+
+This error was identified using the html validator.
+
+I was using button tags surrounded by a tags for many of the buttons on the page, outside the form elements. 
+
+Once I identified this issue I removed all the button tags that were outside the form sections and replaced them with styled div tags with links to the pages using the a tags. 
+
+## Image child error 
+There was an issue using the cheap-course-image on the index page. 
+
+To make the image a link I surrounded it with a tags, this was ten causing problems with the flex wrap elements below this (they were now on top of the element).
+
+First I read up on parent and child elements for flex box, I then used the unicorn revealer to understand how the elements were acting with each other. 
+
+The simplest method of correcting this mistake was to replace the parent a tags class with the child img class names and apply the styling to the a tag.
+
+This fix worked because the a tag was added at a later date and was causing issues with the styling, swapping the class names around fixed the problems. 
+
+## form input error 
+
+There was a styling error with the form, located on the bottom of each page.
+
+The input for the form had a width of 100%, this was because I had styled the input universally in the form elements using type[text]
+
+This then meant when the type email was added it did nto inherit the same styles. 
+
+This was solved by adding the type[email] to the type[text] in the css. 
+
+This then solved the issue. 
+
+## landing page button error 
+
+Once I corrected the button error as mentioned above, I had an issue getting the styling to add to the new button divs on the landing page. 
+
+This was then fixed by noting down the parent elements through the page and creating new styling for these elements . 
 
 ## Technologies used
 
@@ -344,43 +398,8 @@ The developer ran into a number of issues during the development of the websites
 - Github 
 
 
-## Testing 
-
-
-The W3C Markup Validator service was used to validate the HTML code used.
-
-Along with the lighthouse function from the Google dev tools. 
-
-![Github  lighthouse](/assets/images/lighthouse.png )
-
-
-The HTML validator came back with two warnings that were unresolved.
-
-- The first is referring to the comments within the text. I used ---------------------- to identify different sections and make it easier for other coders to see where these sections start end and, this will not be changed and will be kept in.
-
-- The second is a warning talking about a being use with button tags. According to the error, a should not go around a button tag, however I was unable to find why this was the case, not only have I seen other coders do this as well but the buttons work with the intended styling. Therefore this will stay in this project, but will be corrected on in future projects. 
-
-The W3C CSS Validator service was used to validate the CSS coded used.
-
-### Corrections
-
-Their were several main corrections that had to be fixed. 
-
-These corrections where mainly done using Google Dev tools.
-
-The first was  mobile responsive on the home page, several elements where too large and were causing the navbar to be too large below 400. To correct this I first had to identify which elements were larger using the developer tools and then using a mix of media queries and changing the width to 100% this was then fixed. 
-
-The second was the hamburger menu being unresponsive with the overlay menu. This was caused with the hamburger menu being under the overlay element. The easiest way to fix this was to move the menu icon to the right of the screen allowing the user to click the menu open and closed. 
-
-## User Testing 
-
-Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience.
-
-It was through this testing that the following changes were made:
-
-Change to the Navbar background color in order for the toggler menu icon to more visable . 
-Change to Navbar font-size on mobile for clearer reading.
-
+# Testing 
+Visit the [Testing file](testing.md "Link to testing file") here.
 
 ## Future recommendations 
 
@@ -391,6 +410,16 @@ I would also like to create a logo to be used on the mobile navbar rather than t
 I also need to link the footer social media icons to the correct pages and create the cookie and private policies. 
 
 Also, according to the lighthouse report, one of the main issues slowing the website down is the image sizes, this will need to be reduced before the website goes live. 
+
+
+# Credits
+
+- we3school
+- css tricks 
+- zero to mastery 
+- I will teach you a langauge 
+canva 
+
 
 
 
