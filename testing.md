@@ -56,7 +56,7 @@ Landing page response design
 
 ## Code Validation 
 
-The W3C Markup Validator service was used to validate the HTML code used.
+The  [we3 mark up validator](https://validator.w3.org/ "Html validator ") service was used to validate the HTML code used.
 
 index page 
 ![Home page ](assets/images/test/validation/index.png)
@@ -101,12 +101,17 @@ Study Activities
 ## Css validation / Javascipt validation 
 
 The W3C CSS Validator service was used to validate the CSS coded used.
+- [css validator](https://jigsaw.w3.org/css-validator/ "css validator ")
+
 
 CSS 
 ![css ](assets/images/test/validation/cssval.png)
 
 
 Javascript 
+
+The [javascript validator](https://beautifytools.com/javascript-validator.php "javascript validator ")
+
 
 ![javascript ](assets/images/test/validation/javascript.png)
 

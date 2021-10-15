@@ -191,7 +191,7 @@ This section we will go over the features of the website and why they are useful
 
 ## Navbar
 
-![Github  navbar](/assets/images/Untitled-design-(14).png )
+![Github  navbar](/assets/images/nav.png )
 
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
